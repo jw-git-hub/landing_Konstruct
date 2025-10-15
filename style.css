@@ -60,7 +60,123 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.34rem;
     margin-bottom: 71px;
+    transition: color 0.5s ease;
+}
+.scroll_button:hover {
+    color: #00A4E5;
+}
+.nav {
+    margin-bottom: 58px;
+}
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    height: 65px;
+    margin: 0 auto;
+}
+.nav_links {
+    display: flex;
+    gap: 30px;
 }
 
-Поставить ссылку в скрол на следующий блок
+.nav_links li a {
+    color: #48555B;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: color 0.5s ease;
+}
+.nav_links li a:hover{
+    color: #00A4E5;
+}
 
+.about-wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.about-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-h2 {
+     text-transform: uppercase;
+     color: #48555B;
+     font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+}
+.about-decor-line {
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    margin-bottom: 53px;
+}
+.about-body {
+    display: flex;
+    justify-content: space-between;
+}
+.about-body-left {
+width: 405px;
+height: 253px;
+}
+.about-body-left-text1 {
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #48555B;
+    line-height: 25px;
+}
+.Konstruct {
+    color: #16ACE8;
+}
+.about-body-left-text2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #48555B;
+    letter-spacing: 1.19px;
+    line-height: 20px;
+}
+
+.about-body-right {
+    display: flex;
+    gap: 20px;
+}
+.about-body-right-block1 {
+    padding: 15px 0 0 15px;
+    width: 140px;
+    height: 200px;
+    background-image: url(/image/plan.png);
+    background-size: cover;
+}
+.about-body-right-block2 {
+    padding: 15px 0 0 15px;
+    width: 140px;
+    height: 200px;
+    background-image: url(/image/manage.png);
+    background-size: cover;
+}
+.about-body-right-block3 {
+    padding: 15px 0 0 15px;
+    width: 140px;
+    height: 200px;
+    background-image: url(/image/deliver.png);
+    background-size: cover;
+}
+
+.about-body-right > div {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
