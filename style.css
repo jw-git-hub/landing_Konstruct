@@ -42,13 +42,14 @@ header {
     margin-top: 41px;
 }
 
-.header_content {}
+
 
 .header_title {
     font-size: 60px;
     color: #fff;
     letter-spacing: 5.71px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .header_description {
@@ -83,7 +84,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 941px;
+    max-width: 940px;
     height: 65px;
     margin: 0 auto;
 }
@@ -208,9 +209,11 @@ header {
     font-size: 24px;
     text-transform: uppercase;
 }
+
 .services {
     margin-bottom: 234px;
 }
+
 .services-wrap {
     max-width: 940px;
     margin: 0 auto;
@@ -310,18 +313,96 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .form-text {
-font-family: "Open Sans", sans-serif;
-font-weight: 700;
-font-size: 22px;
-letter-spacing: 0.1em;
-color: #fff;
-padding-right: 86px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    padding-right: 86px;
 }
+
 .email-form-input {
     width: 250px;
     height: 40px;
     padding-left: 15px;
 }
-.button {
+
+footer {
+    background-color: #141A20;
 }
+
+.footer-wrap-content {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 42px 0;
+}
+
+.footer-col1 {}
+
+.footer-head {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+    width: 102px;
+    height: 23px;
+}
+
+.footer-text {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.footer-col2 {}
+
+.footer-col2-container-links {
+    display: flex;
+    gap: 34px;
+}
+
+.footer-col2-wrap-links {}
+
+.footer-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.01em;
+    line-height: 25px;
+    transition: color 0.5s ease;
+}
+
+.footer-link:hover {
+    color: #00A4E5;
+}
+
+.footer-col3 {}
+
+.footer-col4 {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-down {}
