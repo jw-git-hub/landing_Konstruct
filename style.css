@@ -302,3 +302,26 @@ header {
 .get-in-touch>.button {
     margin-bottom: 232px;
 }
+
+.form {
+    background-color: #171819;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-text {
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 22px;
+letter-spacing: 0.1em;
+color: #fff;
+padding-right: 86px;
+}
+.email-form-input {
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+}
+.button {
+}
