@@ -434,6 +434,13 @@ footer {
     .about-body-right {
         margin: 0 auto;
     }
+    .footer-wrap-content {
+        flex-direction: column;
+    }
+    .footer-col2-wrap-links {
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 680px) {
 .form {
