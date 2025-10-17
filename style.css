@@ -1,5 +1,3 @@
-:root {}
-
 html {
     box-sizing: border-box;
 }
@@ -505,5 +503,3 @@ footer {
         flex-direction: column;
     }
 }
-
-@media (max-width: 360px) {}
