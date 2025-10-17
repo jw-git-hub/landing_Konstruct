@@ -8,9 +8,7 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: inherit;
-    list-style: none;
     border: none;
-    text-decoration: none;
     list-style: none;
     text-decoration: none;
     color: inherit;
@@ -26,14 +24,13 @@ html {
 
 header {
     height: 100vh;
-    background-image: url(/image/bg.png);
+    background-image: url(image/bg.png);
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .header_logo {
@@ -41,8 +38,6 @@ header {
     width: 102px;
     height: 23px;
 }
-
-
 
 .header_title {
     font-size: 60px;
@@ -187,24 +182,27 @@ img.logo-nav {
     padding: 15px 0 0 15px;
     width: 140px;
     height: 200px;
-    background-image: url(/image/plan.png);
+    background-image: url(image/plan.png);
     background-size: cover;
+    background-color: #f0f0f0; /* fallback */
 }
 
 .about-body-right-block2 {
     padding: 15px 0 0 15px;
     width: 140px;
     height: 200px;
-    background-image: url(/image/manage.png);
+    background-image: url(image/manage.png);
     background-size: cover;
+    background-color: #f0f0f0; /* fallback */
 }
 
 .about-body-right-block3 {
     padding: 15px 0 0 15px;
     width: 140px;
     height: 200px;
-    background-image: url(/image/deliver.png);
+    background-image: url(image/deliver.png);
     background-size: cover;
+    background-color: #f0f0f0; /* fallback */
 }
 
 .about-body-right>div {
@@ -244,6 +242,17 @@ img.logo-nav {
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0080B3;
+}
+
+.button:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
 }
 
 .services-body {
@@ -290,11 +299,10 @@ img.logo-nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(/image/get-in-touch.png);
+    background-image: url(image/get-in-touch.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .get-in-touch-text {
@@ -332,6 +340,11 @@ img.logo-nav {
     width: 150px;
     height: 40px;
     padding-left: 15px;
+}
+
+.email-form-input:focus {
+    outline: 2px solid #00A4E5;
+    outline-offset: 1px;
 }
 
 footer {
@@ -372,14 +385,10 @@ footer {
     line-height: 19px;
 }
 
-
-
 .footer-col2-container-links {
     display: flex;
     gap: 34px;
 }
-
-
 
 .footer-link {
     color: #fff;
@@ -405,7 +414,6 @@ footer {
     width: 15px;
     height: 15px;
 }
-
 
 header,
 .nav,
@@ -436,6 +444,19 @@ footer {
         flex-direction: column;
     }
 }
+@media (max-width: 920px) {
+    .services-head {
+        flex-direction: column;
+    }
+    .services-head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-head-block2 {
+        margin-bottom: 50px;
+    }
+}
 
 @media (max-width: 680px) {
     .form {
@@ -447,6 +468,9 @@ footer {
     .form-text {
         padding: inherit;
         margin: 0 auto;
+    }
+    .services-body {
+        flex-direction: column;
     }
 }
 
@@ -481,18 +505,6 @@ footer {
         font-size: 11px;
     }
 
-    .services-head {
-        flex-direction: column;
-    }
-
-    .services-head-block2 {
-        margin-bottom: 50px;
-    }
-
-    .services-body {
-        flex-direction: column;
-    }
-
     .email-form-input {
         margin-bottom: 20px;
     }
@@ -500,5 +512,6 @@ footer {
     .email-form {
         display: flex;
         flex-direction: column;
+        align-items: center; /* улучшение для мобильных */
     }
 }
