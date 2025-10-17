@@ -24,13 +24,14 @@ html {
 
 header {
     height: 100vh;
-    background-image: url(image/bg.png);
+    background: url(image/bg.png) center/cover fixed;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-repeat: no-repeat;
 }
 
 .header_logo {
