@@ -1,6 +1,6 @@
 # landing_Konstruct
 
-**[Посмотреть демо](https://твой-логин.github.io/твой-репозиторий](https://jw-git-hub.github.io/landing_Konstruct/)**
+**[Посмотреть демо](https://jw-git-hub.github.io/landing_Konstruct)**
 
 ## Технологии
 - HTML5
