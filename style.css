@@ -23,7 +23,7 @@ html {
 }
 
 header {
-    height: 100%;
+    height: 100vh;
     background: url(image/bg.png) center/cover fixed;
     background-size: cover;
     background-position: center;
