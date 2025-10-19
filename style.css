@@ -527,4 +527,7 @@ font-size: 11px;
         flex-direction: column;
         align-items: center; /* улучшение для мобильных */
     }
+    .email-form > .button {
+        margin-bottom: 20px;
+    }
 }
