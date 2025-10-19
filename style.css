@@ -426,6 +426,18 @@ footer {
     padding: 0 20px;
 }
 
+.footer-down {
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 11px;
+    color: #fff;;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #171819;
+}
+
 @media (max-width: 960px) {
     .about-body {
         flex-direction: column;
@@ -515,16 +527,4 @@ footer {
         flex-direction: column;
         align-items: center; /* улучшение для мобильных */
     }
-}
-
-.footer-down {
-    font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 11px;
-    color: #fff;;
-    text-align: center;
-    align-content: center;
-    width: 100%;
-    height: 60px;
-    background-color: #171819;
 }
